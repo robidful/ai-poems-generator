@@ -1,3 +1,7 @@
+.container {
+  margin: 50px 0px;
+}
+
 header {
   background: #feebec;
   padding: 10px;
@@ -11,9 +15,6 @@ header {
 
 h1 {
   font-family: "Signika Negative", sans-serif;
-}
-.container {
-  margin: 20px 0px;
 }
 
 header {
@@ -32,6 +33,7 @@ header {
   border-radius: 8px;
   padding: 5px 10px;
   width: 800px;
+  border-width: 1px;
 }
 
 #prompt:focus {
@@ -48,7 +50,7 @@ header {
   color: #f15d73;
 }
 
-.actual-poem {
+#actual-poem {
   margin: 30px auto;
   font-family: "Signika Negative", sans-serif;
   color: #313638;
