@@ -54,6 +54,8 @@ header {
   margin: 30px auto;
   font-family: "Signika Negative", sans-serif;
   color: #313638;
+  width: 300px;
+  padding: 20px;
 }
 
 footer {
