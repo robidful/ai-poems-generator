@@ -57,7 +57,9 @@ header {
   width: 300px;
   padding: 20px;
 }
-
+a {
+  color: #f15d73 !important;
+}
 footer {
   font-family: monospace;
   font-size: 12px;
