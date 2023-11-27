@@ -1,0 +1,19 @@
+.container {
+  margin: 20px 0px;
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 11px;
+  box-shadow: 3px 4px 6px 1px #000000;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 12px;
+  margin-top: 30px;
+}
