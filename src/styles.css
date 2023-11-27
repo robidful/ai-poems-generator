@@ -40,6 +40,16 @@ header {
   outline-color: #f15d73;
 }
 
+.suggestion {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #b0b1b4;
+  text-align: left;
+  margin-left: 255px;
+  margin-top: 4px;
+}
+
 #submit {
   font-family: "Signika Negative", sans-serif;
   border-radius: 8px;
@@ -48,6 +58,19 @@ header {
   border-color: transparent;
   background: #feebec;
   color: #f15d73;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#submit:active {
+  background: #f15d73;
+  color: #feebec;
+}
+
+.waiting-message {
+  font-family: "Signika Negative", sans-serif;
+  font-style: italic;
+  color: #b0b1b4;
+  margin-top: 15px;
 }
 
 #actual-poem {
