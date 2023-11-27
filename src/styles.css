@@ -6,20 +6,16 @@ header {
   background: #feebec;
   padding: 10px;
   border-radius: 8px;
-  width: 1000px;
+  width: 900px;
   display: block;
   margin: 0 auto;
+  margin-bottom: 25px;
   text-align: center;
   color: #f15d73;
 }
 
 h1 {
   font-family: "Signika Negative", sans-serif;
-}
-
-header {
-  margin-bottom: 25px;
-  text-align: center;
 }
 
 .poem-generation {
