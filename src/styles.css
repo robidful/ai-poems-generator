@@ -1,87 +1,107 @@
-.container {
-  margin: 50px 0px;
-}
-
-header {
-  background: #feebec;
-  padding: 10px;
-  border-radius: 8px;
-  width: 900px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 25px;
-  text-align: center;
-  color: #f15d73;
-}
-
 h1 {
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 70px;
+  margin: 18px auto 1px 50px;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-size: 27px;
+  margin-left: 54px;
+  margin-top: 1px;
+}
+
+hr {
+  margin: 10px 54px;
+}
+
+.intro {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  margin: 25px 800px 25px 120px;
+}
+
+img {
+  position: absolute;
+  top: 130px;
+  right: -85px;
+  width: 30%;
+  padding: 0px;
 }
 
 .poem-generation {
   display: block;
   margin: 0 auto;
   text-align: center;
+  margin-top: 40px;
 }
 
 #prompt {
-  font-family: "Signika Negative", sans-serif;
-  border-radius: 8px;
-  padding: 5px 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  border-radius: 9999px;
+  padding: 15px 12px;
   width: 800px;
   border-width: 1px;
 }
 
 #prompt:focus {
-  outline-color: #f15d73;
+  outline-color: black;
 }
 
 .suggestion {
   font-family: "Signika Negative", sans-serif;
   font-size: 15px;
   font-style: italic;
-  color: #b0b1b4;
+  color: darkgrey;
   text-align: left;
-  margin-left: 255px;
+  margin-left: 310px;
   margin-top: 4px;
 }
 
 #submit {
-  font-family: "Signika Negative", sans-serif;
-  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  border-radius: 9999px;
+  padding: 10px 8px;
   margin-top: 20px;
-  width: 800px;
+  width: 300px;
   border-color: transparent;
-  background: #feebec;
-  color: #f15d73;
+  background: black;
+  color: #f4efea;
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 #submit:active {
-  background: #f15d73;
-  color: #feebec;
+  background: #f4efea;
+  color: black;
+}
+
+#submit:hover {
+  cursor: pointer;
 }
 
 .waiting-message {
   font-family: "Signika Negative", sans-serif;
   font-style: italic;
-  color: #b0b1b4;
+  color: darkgray;
   margin-top: 15px;
 }
 
 #actual-poem {
   margin: 30px auto;
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
   color: #313638;
   width: 300px;
   padding: 20px;
 }
-a {
-  color: #f15d73 !important;
-}
+
 footer {
   font-family: monospace;
   font-size: 12px;
-  margin-top: 30px;
+  margin: 30px auto;
   text-align: center;
 }
