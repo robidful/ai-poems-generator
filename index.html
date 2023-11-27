@@ -10,7 +10,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,300;1,400;1,700&family=Signika+Negative:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -19,26 +24,20 @@
         <h1>AI Poem Generator <small>📜</small></h1>
       </header>
 
-      <div class="row">
-        <div class="col-6">
-          <form>
-            <input
-              type="text"
-              placeholder="Write a poem about..."
-              autofocus
-              required
-              autocomplete="off"
-            />
-            <input type="submit" />
-          </form>
-          <div class="actual-poem">Here goes the poem</div>
-        </div>
-        <div class="col-6">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/105/117/original/trust-tru-katsande-wDJrBpl-q3Q-unsplash.jpg?1701083200"
-            alt="poetry"
+      <div class="poem-generation">
+        <form>
+          <input
+            type="text"
+            placeholder="Write a poem about..."
+            autofocus
+            required
+            autocomplete="off"
+            id="prompt"
           />
-        </div>
+          <br />
+          <input type="submit" value="Generate Poem" id="submit" />
+        </form>
+        <div class="actual-poem">Here goes the poem</div>
       </div>
 
       <footer>

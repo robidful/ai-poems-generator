@@ -1,19 +1,62 @@
+header {
+  background: #feebec;
+  padding: 10px;
+  border-radius: 8px;
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #f15d73;
+}
+
+h1 {
+  font-family: "Signika Negative", sans-serif;
+}
 .container {
   margin: 20px 0px;
 }
 
 header {
   margin-bottom: 25px;
+  text-align: center;
 }
 
-img {
-  max-width: 50%;
-  border-radius: 11px;
-  box-shadow: 3px 4px 6px 1px #000000;
+.poem-generation {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#prompt {
+  font-family: "Signika Negative", sans-serif;
+  border-radius: 8px;
+  padding: 5px 10px;
+  width: 800px;
+}
+
+#prompt:focus {
+  outline-color: #f15d73;
+}
+
+#submit {
+  font-family: "Signika Negative", sans-serif;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 800px;
+  border-color: transparent;
+  background: #feebec;
+  color: #f15d73;
+}
+
+.actual-poem {
+  margin: 30px auto;
+  font-family: "Signika Negative", sans-serif;
+  color: #313638;
 }
 
 footer {
   font-family: monospace;
   font-size: 12px;
   margin-top: 30px;
+  text-align: center;
 }
