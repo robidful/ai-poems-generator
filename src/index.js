@@ -2,7 +2,7 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#actual-poem", {
-    strings: "ciaone",
+    strings: "Hello, I am a poet",
     autoStart: true,
     delay: 1,
     cursor: "",
