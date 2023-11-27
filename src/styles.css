@@ -3,25 +3,25 @@ h1 {
   text-transform: uppercase;
   color: #000000;
   font-size: 70px;
-  margin: 18px auto 1px 50px;
+  margin: 25px auto 1px 90px;
 }
 
 h3 {
   font-family: "Inter", sans-serif;
   color: #000000;
   font-size: 27px;
-  margin-left: 54px;
+  margin-left: 94px;
   margin-top: 1px;
 }
 
 hr {
-  margin: 10px 54px;
+  margin: 10px 94px;
 }
 
 .intro {
   font-family: "Inter", sans-serif;
   font-size: 17px;
-  margin: 25px 800px 25px 120px;
+  margin: 25px 800px 25px 90px;
 }
 
 img {
